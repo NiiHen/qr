@@ -17,7 +17,7 @@ var TEST_NUMERIC = /^\d+$/;
    }
  }
 	  
- var data = window.location.href.replace("?","@").replace(/@.+/,"") + '?' +dataInfoValue;
+ var data = window.location.href + '?' +dataInfoValue;
  //var mode = encodeMode.val();
  var mode = 'Auto';
  //var ecLevel = encodeECLevel.val();
