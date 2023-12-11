@@ -1,5 +1,3 @@
-var postElement = document.querySelector('.post, .hentry'), dataInfoValue = postElement ? postElement.getAttribute('id') : null;
-
 var TEST_NUMERIC = /^\d+$/;
  var TEST_ALPHANUMERIC = /^[0-9A-Z$%*+-./: ]+$/;
  
@@ -17,7 +15,7 @@ var TEST_NUMERIC = /^\d+$/;
    }
  }
 	  
- var data = window.location.href + '?' +dataInfoValue;
+ var data = window.location.href.replace('?','@').replace(/@.+/,'') + '?7398228766615967707';
  //var mode = encodeMode.val();
  var mode = 'Auto';
  //var ecLevel = encodeECLevel.val();
